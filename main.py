@@ -1,11 +1,4 @@
-"""
-Name(s):
-Name of Project:
-"""
+program =input("Which part(1, 2, 3, 4, or 5)? ")
 
-#Write the main part of your program here. Use of the other pages is optional.
-
-#import page1  # uncomment if you're using page1
-#import page2  # uncomment if you're using page2
-#import page3  # uncomment if you're using page3
-#import page4  # uncomment if you're using page4
+while program not in ['1', '2', '3','4', '5']:
+  print
